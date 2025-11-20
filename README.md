@@ -1,0 +1,2 @@
+This project explores extractive summarization—selecting the most important sentences from a document—using various different methods such as TF-IDF embeddings, sentence-level classification, Word2Vec k-means clustering, and classical ML methods. The goal is to understand how different NLP pipelines can automatically identify key information in news articles.
+Feel free to run any of the function (uncomment the lines below the function) and compare the results of the different functions.
