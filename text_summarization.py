@@ -160,7 +160,8 @@ def logistic_classification_summary(article, num_summary_sentences):
     summary_sentences = [article[i] for i in top_indexes_sorted]
     return ". ".join(summary_sentences)
 
-
+#summary = logistic_classification_summary(train_articles[5], 3)
+#print(summary)
 
 def kmeans_summary(article):
     sentence_vector = []
@@ -226,6 +227,7 @@ def kmeans_summary(article):
     print(". ".join(summary))
     #plt.show()
 
+#kmeans_summary(train_articles[2])
 
 
 def TfIDF_summary(article):
@@ -245,6 +247,7 @@ def TfIDF_summary(article):
     return summary
 
 summary = ". ".join(TfIDF_summary(train_articles[3]))
+#print (summary)
 
 
 
